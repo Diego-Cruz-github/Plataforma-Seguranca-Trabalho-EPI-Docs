@@ -5,10 +5,13 @@ import ProjectGuard from '@/components/ProjectGuard'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Plataforma Segurança Trabalho e Saúde Ocupacional | Diego Cruz',
-  description: 'Sistema ERP proprietário para gestão de segurança do trabalho e saúde ocupacional - Diego Cruz',
+  title: 'EHSPro - Digitalizando a segurança, simplificando a gestão | Diego Cruz',
+  description: 'EHSPro - Sistema ERP proprietário para gestão de segurança do trabalho e saúde ocupacional - Diego Cruz',
   author: 'Diego Cruz',
-  keywords: 'ERP, Segurança do Trabalho, EPI, Saúde Ocupacional, Diego Cruz',
+  keywords: 'EHSPro, ERP, Segurança do Trabalho, EPI, Saúde Ocupacional, Diego Cruz',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({

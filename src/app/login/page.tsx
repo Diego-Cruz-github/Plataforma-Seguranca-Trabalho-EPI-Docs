@@ -41,11 +41,20 @@ export default function LoginPage() {
       <div className="bg-white rounded-lg shadow-2xl w-full max-w-md p-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-green rounded-full mb-4">
-            <Shield className="w-8 h-8 text-white" />
+          <div className="inline-flex items-center justify-center w-28 h-28 bg-white rounded-full mb-4 border-2 border-primary-green">
+            <img 
+              src="/images/ehspro-logo.png" 
+              alt="EHSPro" 
+              className="w-24 h-24 object-contain"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                e.currentTarget.nextElementSibling?.classList.remove('hidden');
+              }}
+            />
+            <Shield className="w-14 h-14 text-primary-green hidden" />
           </div>
-          <h1 className="text-2xl font-bold text-text-dark">ERP Segurança</h1>
-          <p className="text-text-gray">do Trabalho</p>
+          <h1 className="text-2xl font-bold text-text-dark">EHSPro</h1>
+          <p className="text-text-gray">Digitalizando a segurança, simplificando a gestão</p>
         </div>
 
         {/* Demo Credentials */}

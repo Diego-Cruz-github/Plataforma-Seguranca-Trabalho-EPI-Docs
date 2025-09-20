@@ -39,6 +39,7 @@ Arquivos QUE NÃO ESTARÃO NO GITHUB/
 # IDE
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 
@@ -99,3 +100,41 @@ dist/
 # Temporary folders
 tmp/
 temp/
+
+# Image files in root directory
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+*.webp
+
+# Specific image files
+Favicon.png
+LOGOESSA.png
+WhatsApp Image*.jpeg
+logo_sem_fundo.png
+2d6faf52-58f8-4eb2-8270-465c2863d845.png
+
+# Hide most implementation to protect IP
+src/
+public/
+node_modules/
+package-lock.json
+next.config.js
+postcss.config.js
+tailwind.config.js
+tsconfig.json
+next-env.d.ts
+
+# Keep only essential files visible for demo
+!src/app/layout.tsx
+!src/app/globals.css
+!src/app/login/
+!src/app/page.tsx
+!src/components/Layout/
+!src/types/
+!package.json
+!README.md
