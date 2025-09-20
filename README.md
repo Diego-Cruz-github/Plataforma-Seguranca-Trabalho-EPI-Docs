@@ -26,17 +26,17 @@ O **EHSPro** é uma solução moderna e completa para gestão de segurança do t
 
 ### 🖥️ Dashboard e Login
 <a href="arquivos importantes/1Gravando-2025-09-20-121924.gif">
-  <img src="arquivos importantes/1Gravando-2025-09-20-121924.gif" alt="Dashboard Demo" width="700">
+  <img src="arquivos importantes/1Gravando-2025-09-20-121924.gif" alt="Dashboard Demo" width="480">
 </a>
 
 ### 🦺 Gestão de EPIs
 <a href="arquivos importantes/2Gravando-2025-09-20-122856-_1_.gif">
-  <img src="arquivos importantes/2Gravando-2025-09-20-122856-_1_.gif" alt="EPI Management Demo" width="700">
+  <img src="arquivos importantes/2Gravando-2025-09-20-122856-_1_.gif" alt="EPI Management Demo" width="480">
 </a>
 
 ### 📊 Sistema Completo
 <a href="arquivos importantes/3Gravando-2025-09-20-123217-_1_.gif">
-  <img src="arquivos importantes/3Gravando-2025-09-20-123217-_1_.gif" alt="Full System Demo" width="700">
+  <img src="arquivos importantes/3Gravando-2025-09-20-123217-_1_.gif" alt="Full System Demo" width="480">
 </a>
 
 ### Principais Funcionalidades
